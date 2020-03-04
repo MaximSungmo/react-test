@@ -39,11 +39,11 @@ function App() {
   return (
       <div>
           <h1>hello!</h1>
-          {foodILke.map(dish =>
-              <Food key={dish.id}
-                    name={dish.name}
-                    image={dish.image}
-                    rating={dish.rating}
+          {foodILke.map(as =>
+              <Food key={as.id}
+                    name={as.name}
+                    image={as.image}
+                    rating={as.rating}
               />
           )}
       </div>
